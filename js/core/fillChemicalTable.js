@@ -12,7 +12,7 @@ function readTextFile(file, callback) {
 var sortedData = [];
 window.addEventListener("load",
     () => {
-        readTextFile("/ChemicalTable.json", (data) => {
+        readTextFile("ChemicalTable.json", (data) => {
             data = JSON.parse(data).Table;
 
             for (let i = 0; i < data.Row.length; i++) {
