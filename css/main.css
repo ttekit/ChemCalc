@@ -1,0 +1,11 @@
+.calc-button{
+    border: 0;
+    background-color: #71da71;
+}
+.clear-button{
+    border: 0;
+    background-color: #da7171;
+}
+.button-container{
+    margin: 20px;
+}
