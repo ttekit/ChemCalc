@@ -1,3 +1,11 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .calc-button{
     border: 0;
     background-color: #71da71;
