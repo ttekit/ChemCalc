@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Done
+spliting formul to elements and showing information over it
+# WIP
+fully formul data
+normal visualisation
+data of formul collecting
+
