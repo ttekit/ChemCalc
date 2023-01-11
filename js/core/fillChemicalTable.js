@@ -9,12 +9,12 @@ function readTextFile(file, callback) {
     }
     rawFile.send(null);
 }
-
+var sortedData = [];
 window.addEventListener("load",
     () => {
         readTextFile("/ChemicalTable.json", (data) => {
             data = JSON.parse(data).Table;
-            let sortedData = [];
+
             for (let i = 0; i < data.Row.length; i++) {
                 sortedData.push({
                     "AtomicNumber": data.Row[i].Cell[0],
@@ -35,7 +35,9 @@ window.addEventListener("load",
                     "YearDiscovered": data.Row[i].Cell[6],
                 });
             }
-            console.log(sortedData);
         })
-
     })
+
+
+//TODO: методы для работы с елементами (поиск все нужного)
+//TODO: Поиск информации по елементу (H2O = вывести всё что связано с)
